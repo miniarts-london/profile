@@ -178,7 +178,18 @@ export function ProfileSite() {
               Get in touch
             </a>
           </div>
-          <dl className="hero-stats mt-16 grid max-w-2xl grid-cols-3 gap-6 border-t border-white/10 pt-8 text-sm">
+          <dl className="hero-stats mt-16 grid max-w-3xl grid-cols-2 gap-6 border-t border-white/10 pt-8 text-sm sm:grid-cols-4">
+            <div>
+              <dt className="font-mono text-[10px] tracking-[0.2em] text-gold uppercase">
+                Developer
+              </dt>
+              <dd className="mt-2 font-serif text-3xl italic">
+                {profile.stats.developerYears}
+              </dd>
+              <p className="mt-1 font-mono text-[10px] tracking-[0.14em] text-paper/40 uppercase">
+                since {profile.stats.developerSince}
+              </p>
+            </div>
             <div>
               <dt className="font-mono text-[10px] tracking-[0.2em] text-gold uppercase">
                 Front-end

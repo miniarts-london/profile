@@ -11,8 +11,10 @@ export const profile = {
   summary:
     "Front-End Developer with 18 years' experience building web products, including 7 years working in React. Background spans TypeScript, Angular-to-React migration, and UI development for EdTech, business, and AI software applications, with a consistent focus on performance, accessibility, and collaboration.",
   stats: {
+    developerYears: 24,
     frontEndYears: 18,
     reactYears: 7,
+    developerSince: "2002",
     frontEndSince: "2008",
     reactSince: "2018",
   },
